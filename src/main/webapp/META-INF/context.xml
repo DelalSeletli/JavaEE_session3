@@ -1,0 +1,8 @@
+<Context>
+    <Resource name="jdbc/email_adress"
+              auth="Container" type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              maxActive="20" maxIdle="5" maxWait="10000"
+              username="root" password=""
+              url="jdbc:mysql://localhost:3306/email_adress?useSSL=false"/>
+</Context>
