@@ -1,3 +1,5 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: Delal Seletli
@@ -12,7 +14,6 @@
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- ${STUDENT_LIST}-->
 <div id="wrapper">
     <div id="header">
         <h2>ESILV Engineer School</h2>
